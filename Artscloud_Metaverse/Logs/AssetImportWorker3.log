@@ -1941,3 +1941,198 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 7734.556453 seconds.
+  path: Assets/Gallery Room/Models/AquaPlant_2.fbx
+  artifactKey: Guid(c65041ecea3a0ec46a0356db6c8acc7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gallery Room/Models/AquaPlant_2.fbx using Guid(c65041ecea3a0ec46a0356db6c8acc7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57a937ed4293044a0ea2fb5c8fcb17f7') in 0.987264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Gallery Room/Models/AquariumWall.fbx
+  artifactKey: Guid(c0792f984649b1e4c8694cf1fa1d6995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gallery Room/Models/AquariumWall.fbx using Guid(c0792f984649b1e4c8694cf1fa1d6995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b983ceb1a05509861dc3c7399fe8f678') in 0.058906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Gallery Room/Models/RoofWood.fbx
+  artifactKey: Guid(bb53530069a97ac489380c7bb6578eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gallery Room/Models/RoofWood.fbx using Guid(bb53530069a97ac489380c7bb6578eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cec789d90556539184cbd95cb26897ea') in 0.022902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Gallery Room/Models/LightStand.fbx
+  artifactKey: Guid(da0a978f586b7424eb3d7b7145f7b701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gallery Room/Models/LightStand.fbx using Guid(da0a978f586b7424eb3d7b7145f7b701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74ccca2c6ecb0e418ab493e672c182da') in 0.023577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Gallery Room/Models/WallShort.fbx
+  artifactKey: Guid(f60dfca7a6e73f0408c8b93ea81f5bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gallery Room/Models/WallShort.fbx using Guid(f60dfca7a6e73f0408c8b93ea81f5bc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3df3224c97941ada7fe92ee1e3a93620') in 0.031257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Gallery Room/Models/Pillow.fbx
+  artifactKey: Guid(799bea570ce15d94a85612b861d9fdca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gallery Room/Models/Pillow.fbx using Guid(799bea570ce15d94a85612b861d9fdca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c8564a0bc6a483513b785794771907b') in 0.033473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Gallery Room/Models/Statue.fbx
+  artifactKey: Guid(520b72d44cf6aa740bab4bdbc463c24f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gallery Room/Models/Statue.fbx using Guid(520b72d44cf6aa740bab4bdbc463c24f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3b6b2692a6f60dc8ed2527c0a4d2d42') in 0.027353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Gallery Room/Models/StandSide.fbx
+  artifactKey: Guid(75ac3f5f83703b64cad71605ef6b6169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gallery Room/Models/StandSide.fbx using Guid(75ac3f5f83703b64cad71605ef6b6169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b00511c6c225cdf426510c75c3385bd') in 0.028014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Gallery Room/Models/Floor.fbx
+  artifactKey: Guid(2fa5744b4ec48c94bb4992d4ba01fce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gallery Room/Models/Floor.fbx using Guid(2fa5744b4ec48c94bb4992d4ba01fce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3639f755bbb5d1008295e7e4a4f54623') in 0.020347 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Gallery Room/Models/WallLine.fbx
+  artifactKey: Guid(fc6180c0f0f432749ab614e52e399d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gallery Room/Models/WallLine.fbx using Guid(fc6180c0f0f432749ab614e52e399d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f058451ce688ac6f22c2944dd617b28b') in 0.030977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Gallery Room/Models/Stand.fbx
+  artifactKey: Guid(f77fbf02eba21a34d98c9ea4062928b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gallery Room/Models/Stand.fbx using Guid(f77fbf02eba21a34d98c9ea4062928b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b398ff6fc71339004d98ba9e236ebb45') in 0.027129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Gallery Room/Models/CouchVert.fbx
+  artifactKey: Guid(91a977a5ff38554459c2b3fd3fbf8ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gallery Room/Models/CouchVert.fbx using Guid(91a977a5ff38554459c2b3fd3fbf8ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0166de030e07d0f8bde3e87cfbb26771') in 0.019928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Gallery Room/Models/WallWindow.fbx
+  artifactKey: Guid(c0487a203bdd7144881e3a24cfc27592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gallery Room/Models/WallWindow.fbx using Guid(c0487a203bdd7144881e3a24cfc27592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa3346431b3337d9af4371e973801441') in 0.028268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.013816 seconds.
+  path: Assets/Gallery Room/Prefabs/AquaPlant_2.prefab
+  artifactKey: Guid(b820c561cf2fc874aa2c920e6c586932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gallery Room/Prefabs/AquaPlant_2.prefab using Guid(b820c561cf2fc874aa2c920e6c586932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed5dd0b26945da769b5c9d4689242db4') in 1.368527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Gallery Room/Prefabs/AquariumFloor.prefab
+  artifactKey: Guid(de4f2af5106c02a438655e17a983b8b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gallery Room/Prefabs/AquariumFloor.prefab using Guid(de4f2af5106c02a438655e17a983b8b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8fab3758a8e6d3456507b6c44fb0f34') in 0.029712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Gallery Room/Prefabs/StandSide.prefab
+  artifactKey: Guid(69fe1961e28bac545aadb328bf0044ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gallery Room/Prefabs/StandSide.prefab using Guid(69fe1961e28bac545aadb328bf0044ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ec8bbb156f842156196fea15bb3ecef') in 0.193671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Gallery Room/Prefabs/Wall.prefab
+  artifactKey: Guid(dc2807b16ef8bfb42b146cc0ec96494e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gallery Room/Prefabs/Wall.prefab using Guid(dc2807b16ef8bfb42b146cc0ec96494e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf6e842488de3a6e0a5ca0f156e3a7cf') in 0.050049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Gallery Room/Prefabs/CouchHor.prefab
+  artifactKey: Guid(a9bd7a52ffb5b4946a2137578780377a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gallery Room/Prefabs/CouchHor.prefab using Guid(a9bd7a52ffb5b4946a2137578780377a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5385d18dafca3e914867084fe66ac58') in 0.063290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Gallery Room/Prefabs/Floor.prefab
+  artifactKey: Guid(eb87010e087dc204ebef08bc81e3db3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gallery Room/Prefabs/Floor.prefab using Guid(eb87010e087dc204ebef08bc81e3db3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a62ce68610bc15c53788f46bc46c9350') in 0.024997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Gallery Room/Prefabs/LightStand.prefab
+  artifactKey: Guid(ca1ea3b145a20cd43a30855b26233fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gallery Room/Prefabs/LightStand.prefab using Guid(ca1ea3b145a20cd43a30855b26233fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '164abaca128ad0f8b5c5f91717ea1297') in 0.058526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Gallery Room/Prefabs/AquariumWall.prefab
+  artifactKey: Guid(b12095afe0d1a9945a84d77d5d15c529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gallery Room/Prefabs/AquariumWall.prefab using Guid(b12095afe0d1a9945a84d77d5d15c529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '532205eef2c1f3757e0b9013ab1c2599') in 0.516076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Gallery Room/Prefabs/FloorLine.prefab
+  artifactKey: Guid(4339c9d2a7dc6fc4f8397375d468d52f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gallery Room/Prefabs/FloorLine.prefab using Guid(4339c9d2a7dc6fc4f8397375d468d52f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2beeda8a470feadd2326f711ef0a5443') in 0.029639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Gallery Room/Prefabs/Canvas.prefab
+  artifactKey: Guid(8ca836fae4608d14780f2cdcb928733b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gallery Room/Prefabs/Canvas.prefab using Guid(8ca836fae4608d14780f2cdcb928733b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd47356671967509b6d3a0a98086eb0d') in 0.026895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Gallery Room/Prefabs/WallTop.prefab
+  artifactKey: Guid(93f4003b343331a4d8314a98670920b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gallery Room/Prefabs/WallTop.prefab using Guid(93f4003b343331a4d8314a98670920b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eae8f7ae41ee232b18731ac6ae0a312b') in 0.077438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.118107 seconds.
+  path: Assets/Gallery Room/Materials/CouchHor.mat
+  artifactKey: Guid(bee7ed8a8526c0f458214bdf0323aed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gallery Room/Materials/CouchHor.mat using Guid(bee7ed8a8526c0f458214bdf0323aed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e06868ce77b888131faabf97dac3182a') in 0.070689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Gallery Room/Materials/Rocks.mat
+  artifactKey: Guid(088b69bfc3549ce4daf0ec6436c0e688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gallery Room/Materials/Rocks.mat using Guid(088b69bfc3549ce4daf0ec6436c0e688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8c397e1479d90d7b1871a28fcac1e9d') in 0.018399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Gallery Room/Materials/Glass.mat
+  artifactKey: Guid(6ad50322818f7f74da449613f6e63032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gallery Room/Materials/Glass.mat using Guid(6ad50322818f7f74da449613f6e63032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84820c2d05b4b6aa469561d32b5d9984') in 0.011719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Gallery Room/Materials/Floor Line.mat
+  artifactKey: Guid(dbb1e767f43664b48ab0d6567536e236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gallery Room/Materials/Floor Line.mat using Guid(dbb1e767f43664b48ab0d6567536e236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b4870252ba3fa2cb3cd67e473f46f9b') in 0.026160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Gallery Room/Materials/Floor.mat
+  artifactKey: Guid(135147deaceefd44f94acac22bad5704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gallery Room/Materials/Floor.mat using Guid(135147deaceefd44f94acac22bad5704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fbc0dbbf47af03ba682861dd27ec898') in 0.029609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Gallery Room/Materials/Light.mat
+  artifactKey: Guid(757460e4edce48745a850a9ce1a38363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gallery Room/Materials/Light.mat using Guid(757460e4edce48745a850a9ce1a38363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ead918711b9a60d74afb8260670e4eca') in 0.017170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Gallery Room/Materials/Wood.mat
+  artifactKey: Guid(764150fa06172094bbda61c76c9085a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gallery Room/Materials/Wood.mat using Guid(764150fa06172094bbda61c76c9085a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a3c994265a9cff5921dcfc9803e0ad8') in 0.062468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Gallery Room/Materials/LightStand.mat
+  artifactKey: Guid(9c28040e99f0e4940bd6bd54457df41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gallery Room/Materials/LightStand.mat using Guid(9c28040e99f0e4940bd6bd54457df41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18f838b04a99b3561b5d15c1a99dff64') in 0.042595 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
