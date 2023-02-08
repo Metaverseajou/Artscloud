@@ -4,14 +4,13 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    
    private Rigidbody rigid;
 
 
     public float speed = 5f;
     public int JumpPower;
     private Rigidbody characterRigidbody;
-
-    public GameObject cameralook;
 
     void Start()
     {
@@ -22,6 +21,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        
      //   cameralook.transform.LookAt(this.gameobject);
         float inputX = Input.GetAxis("Horizontal");
         float inputZ = Input.GetAxis("Vertical");
@@ -41,4 +41,7 @@ public class PlayerMovement : MonoBehaviour
             rigid.AddForce(Vector3.up * JumpPower, ForceMode.Impulse);
         }
     }
+
+    
+    
 }
