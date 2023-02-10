@@ -13,6 +13,7 @@ TagManager:
   - Winter1
   - Winter2
   - Fall2
+  - MySoundArea
   layers:
   - Default
   - TransparentFX
