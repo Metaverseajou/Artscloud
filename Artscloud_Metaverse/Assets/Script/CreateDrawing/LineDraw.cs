@@ -7,6 +7,8 @@ public class LineDraw : MonoBehaviour
     public Camera cam;  //Gets Main Camera
     public Material defaultMaterial; //Material for Line Renderer
     public bool c = true;
+    public bool d = true;
+
 
     public float w = 0.01f;
 
@@ -14,14 +16,15 @@ public class LineDraw : MonoBehaviour
     private int positionCount = 2;  //Initial start and end position
     private Vector3 PrevPos = Vector3.zero; // 0,0,0 position variable
 
-
+    void Start()
+    {
+        defaultMaterial.color = Color.black;
+    }
 
     // Update is called once per frame
     void Update()
     {
         DrawMouse();
-        c = true;
-
     }
 
     void DrawMouse()
@@ -58,7 +61,18 @@ public class LineDraw : MonoBehaviour
         {
             w += 0.002f;
             w += 0.002f;
+
+            c = true;
         }
+
+        if (d == false)
+        {
+            w -= 0.002f;
+            w -= 0.002f;
+
+            d = true;
+        }
+
 
 
         curLine = lineRend;
