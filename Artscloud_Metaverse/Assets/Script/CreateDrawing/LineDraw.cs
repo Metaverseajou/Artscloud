@@ -9,7 +9,8 @@ public class LineDraw : MonoBehaviour
     public bool c = true;
     public bool d = true;
 
-
+    int count = 0;
+    int childNum = 0;
     public float w = 0.01f;
 
     private LineRenderer curLine;  //Line which draws now
@@ -18,13 +19,14 @@ public class LineDraw : MonoBehaviour
 
     void Start()
     {
-        defaultMaterial.color = Color.black;
+        defaultMaterial.color = Color.gray;
     }
 
     // Update is called once per frame
     void Update()
     {
         DrawMouse();
+        count++;
     }
 
     void DrawMouse()
@@ -48,27 +50,35 @@ public class LineDraw : MonoBehaviour
 
         line.transform.parent = cam.transform;
         line.transform.position = mousePos;
-
         lineRend.startWidth = w;
         lineRend.endWidth = w;
         lineRend.numCornerVertices = 5;
         lineRend.numCapVertices = 5;
+  
         lineRend.material = defaultMaterial;
+ 
+       // lineRend.cam.transform.GetChild(count) = defaultMaterial;
+       // lineRend.material = defaultMaterial;
         lineRend.SetPosition(0, mousePos);
         lineRend.SetPosition(1, mousePos);
 
         if (c == false)
         {
-            w += 0.002f;
-            w += 0.002f;
+            w += 0.001f;
+            w += 0.001f;
 
             c = true;
         }
 
         if (d == false)
         {
-            w -= 0.002f;
-            w -= 0.002f;
+            w -= 0.001f;
+            w -= 0.001f;
+
+            if (w < 0.002)
+            {
+                w = 0.002f;
+            }
 
             d = true;
         }
