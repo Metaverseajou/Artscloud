@@ -42,14 +42,17 @@ public class LineDraw : MonoBehaviour
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
 
-        if (5.68f <= cameraposition.transform.position.z || cameraposition.transform.position.z <= 5.9f)
-        {
+      //  if (5.68f <= cameraposition.transform.position.z || cameraposition.transform.position.z <= 5.9f)
+        
             if (Physics.Raycast(ray, out hit))
             {
+              //  Vector3 mos = Input.MousePosition;
+              //  mos.z = camera.farClipPlane;
+                
                 if (hit.transform.gameObject.tag == "Draw") // Draw 오브젝트에 위치할때만 그리기
                     DrawMouse();
             }
-        }
+        
 
         for (int i = 0; i < canvasarea.transform.childCount; i++)
         {
