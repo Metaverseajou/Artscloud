@@ -67,7 +67,7 @@ public class buttonAction : MonoBehaviour
     public void colorClear()
     {
         LineDraw a = GameObject.Find("drawing").GetComponent<LineDraw>();
-        a.defaultMaterial.color = new Color(0f, 0f, 0f, 0f);
+        a.defaultMaterial.color = new Color(1f, 1f, 1f, 0f);
     }
 
     public void colorWhite()
