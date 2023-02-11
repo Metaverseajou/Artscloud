@@ -98,11 +98,6 @@ public class buttonAction : MonoBehaviour
     /* void colorClear()
     {
         LineDraw a = GameObject.Find("drawing").GetComponent<LineDraw>();
-<<<<<<< HEAD
-        a.defaultMaterial.color = new Color(1f, 1f, 1f, 0f);
-    }
-=======
->>>>>>> origin/semin
 
         redMat = new Material(Shader.Find("Unlit/Color"));
         redMat.color = Color.clear;

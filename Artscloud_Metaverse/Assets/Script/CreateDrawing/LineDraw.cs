@@ -9,11 +9,9 @@ public class LineDraw : MonoBehaviour
     public bool c = true;
     public bool d = true;
 
-<<<<<<< HEAD
-=======
-    int count = 0;
+     int count = 0;
     int childNum = 0;
->>>>>>> origin/semin
+
     public float w = 0.01f;
 
     private LineRenderer curLine;  //Line which draws now
@@ -28,21 +26,19 @@ public class LineDraw : MonoBehaviour
 
     void Start()
     {
-<<<<<<< HEAD
-        defaultMaterial.color = Color.black;
+
         //     canvasarea.transform.position = drawing.transform.position;
         canvasarea.transform.position = new Vector3(0, 0, 0);
-
-=======
+        
         defaultMaterial.color = Color.gray;
->>>>>>> origin/semin
+
     }
 
     // Update is called once per frame
     void Update()
     {
-<<<<<<< HEAD
-        Debug.Log(cameraposition.transform.position.z);
+
+       // Debug.Log(cameraposition.transform.position.z);
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
 
@@ -60,11 +56,9 @@ public class LineDraw : MonoBehaviour
             // canvasarea.transform.GetChild(i).localPosition = new Vector3(0, 0, 0);
             canvasarea.transform.GetChild(i).localPosition = canvasarea.transform.position;
         }
-
-=======
-        DrawMouse();
         count++;
->>>>>>> origin/semin
+
+
     }
 
     void DrawMouse()

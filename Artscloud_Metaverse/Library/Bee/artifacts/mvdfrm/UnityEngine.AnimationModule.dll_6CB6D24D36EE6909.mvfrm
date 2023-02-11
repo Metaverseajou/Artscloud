@@ -1,4 +1,3 @@
-<<<<<<< HEAD:Artscloud_Metaverse/Library/Bee/artifacts/mvdfrm/UnityEngine.AnimationModule.dll_6CB6D24D36EE6909.mvfrm
 AvatarMaskBodyPart
 UnityEditor
 Animations
@@ -20,26 +19,3 @@ TransformSceneHandle
 PropertySceneHandle
 AnimationSceneHandleUtility
 AnimationStreamHandleUtility
-=======
-AvatarMaskBodyPart
-UnityEditor
-Animations
-AvatarMask
-IAnimationJob
-UnityEngine
-Experimental
-IAnimationJobPlayable
-IAnimationWindowPreview
-AnimationHumanStream
-AnimationScriptPlayable
-AnimationStream
-TransformStreamHandle
-PropertyStreamHandle
-TransformSceneHandle
-PropertySceneHandle
-AnimationSceneHandleUtility
-AnimationStreamHandleUtility
-CustomStreamPropertyType
-AnimatorJobExtensions
-MuscleHandle
->>>>>>> origin/semin:Artscloud_Metaverse/Library/Bee/artifacts/mvdfrm/UnityEngine.AnimationModule.dll_452524E81372D16E.mvfrm
