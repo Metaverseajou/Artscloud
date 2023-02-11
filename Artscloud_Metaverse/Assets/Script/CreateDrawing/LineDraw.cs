@@ -68,7 +68,7 @@ public class LineDraw : MonoBehaviour
     void DrawMouse()
     {
         Dist = Vector3.Distance(cameraposition.transform.position, _Canvas.transform.position);
-        Debug.Log(Dist);
+       // Debug.Log(Dist);
 
         Vector3 mousePos = cam.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, Dist-0.1f));
 
@@ -109,16 +109,16 @@ public class LineDraw : MonoBehaviour
 
         if (c == false)
         {
-            w += 0.001f;
-            w += 0.001f;
+            w += 0.005f;
+            w += 0.005f;
 
             c = true;
         }
 
         if (d == false)
         {
-            w -= 0.001f;
-            w -= 0.001f;
+            w -= 0.005f;
+            w -= 0.005f;
 
             if (w < 0.002)
             {
