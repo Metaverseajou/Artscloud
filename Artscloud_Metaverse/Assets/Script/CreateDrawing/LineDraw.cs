@@ -70,7 +70,7 @@ public class LineDraw : MonoBehaviour
         Dist = Vector3.Distance(cameraposition.transform.position, _Canvas.transform.position);
        // Debug.Log(Dist);
 
-        Vector3 mousePos = cam.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, Dist-0.1f));
+        Vector3 mousePos = cam.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, Dist-0.08f));
 
         if (Input.GetMouseButtonDown(0))
         {

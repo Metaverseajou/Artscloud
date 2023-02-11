@@ -319,7 +319,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 990037825}
         m_TargetAssemblyTypeName: buttonAction, Assembly-CSharp
-        m_MethodName: colorClear
+        m_MethodName: erase
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -19429,6 +19429,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d969d08efd59041408be564ce9e07268, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  redMat: {fileID: 0}
 --- !u!1001 &991152371
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27903,8 +27904,8 @@ MonoBehaviour:
   d: 1
   w: 0.01
   canvasarea: {fileID: 674979485}
-  drawing: {fileID: 1395553698}
   cameraposition: {fileID: 378777513}
+  _Canvas: {fileID: 1395553698}
 --- !u!4 &1395553707 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7997525114412658564, guid: 8ca836fae4608d14780f2cdcb928733b, type: 3}

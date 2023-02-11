@@ -4,9 +4,13 @@ using UnityEngine;
 
 public class buttonAction : MonoBehaviour
 {
+    private GameObject canvasarea;
 
     public Material redMat;
 
+    void Start(){
+        canvasarea = GameObject.Find("CanvasArea");
+    }
     public void buttonMethode()
     {
         Debug.Log("Done!");
@@ -111,6 +115,12 @@ public class buttonAction : MonoBehaviour
         redMat = new Material(Shader.Find("Unlit/Color"));
         redMat.color = Color.white;
         a.defaultMaterial = redMat;
+    }
+
+    public void erase(){
+        Debug.Log(canvasarea.transform.childCount);
+        Destroy(canvasarea.transform.GetChild(canvasarea.transform.childCount-1).gameObject);
+     //   canvasarea.transform.GetChild(canvasarea.transform.childCount-1).gameObject.SetActive(false);
     }
 
 

@@ -39212,7 +39212,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1203357758}
         m_TargetAssemblyTypeName: buttonAction, Assembly-CSharp
-        m_MethodName: colorClear
+        m_MethodName: erase
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
