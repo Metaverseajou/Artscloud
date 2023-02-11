@@ -9,7 +9,6 @@ public class LineDraw : MonoBehaviour
     public bool c = true;
     public bool d = true;
 
-
     public float w = 0.01f;
 
     private LineRenderer curLine;  //Line which draws now
@@ -17,41 +16,46 @@ public class LineDraw : MonoBehaviour
     private Vector3 PrevPos = Vector3.zero; // 0,0,0 position variable
 
     public GameObject canvasarea;
+    public GameObject drawing;
+    public GameObject cameraposition;
 
-    Vector3 destination = new Vector3(-1.464f,-5.56f,-10.74f);
+    //   Vector3 destination = new Vector3(-1.47f,-5.61f,-10.75f);
 
     void Start()
     {
         defaultMaterial.color = Color.black;
-        canvasarea.transform.position = new Vector3(0,0,0); 
-       
+        //     canvasarea.transform.position = drawing.transform.position;
+        canvasarea.transform.position = new Vector3(0, 0, 0);
+
     }
 
     // Update is called once per frame
     void Update()
     {
+        Debug.Log(cameraposition.transform.position.z);
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
 
-        if(Physics.Raycast(ray,out hit)){
-            if(hit.transform.gameObject.tag == "Draw") // Draw 오브젝트에 위치할때만 그리기
-                 DrawMouse();
+        if (5.68f <= cameraposition.transform.position.z || cameraposition.transform.position.z <= 5.9f)
+        {
+            if (Physics.Raycast(ray, out hit))
+            {
+                if (hit.transform.gameObject.tag == "Draw") // Draw 오브젝트에 위치할때만 그리기
+                    DrawMouse();
+            }
         }
 
-        for(int i = 0; i < canvasarea.transform.childCount ; i++){
-            
-        
-
-            canvasarea.transform.GetChild(i).localPosition = new Vector3(0,0,0);
+        for (int i = 0; i < canvasarea.transform.childCount; i++)
+        {
+            // canvasarea.transform.GetChild(i).localPosition = new Vector3(0, 0, 0);
+            canvasarea.transform.GetChild(i).localPosition = canvasarea.transform.position;
         }
 
-       
-       
     }
 
     void DrawMouse()
     {
-        Vector3 mousePos = cam.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 0.5f));
+        Vector3 mousePos = cam.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 1.5f));
 
         if (Input.GetMouseButtonDown(0))
         {
@@ -62,7 +66,7 @@ public class LineDraw : MonoBehaviour
             connectLine(mousePos);
         }
 
-        
+
     }
     void createLine(Vector3 mousePos)
     {
@@ -70,8 +74,8 @@ public class LineDraw : MonoBehaviour
         GameObject line = new GameObject("Line");
         LineRenderer lineRend = line.AddComponent<LineRenderer>();
 
-      //  line.transform.parent = cam.transform;
-      // make line in canvasarea ~
+        //  line.transform.parent = cam.transform;
+        // make line in canvasarea ~
         line.transform.parent = canvasarea.transform;
         line.transform.position = mousePos;
 
@@ -82,7 +86,7 @@ public class LineDraw : MonoBehaviour
         lineRend.material = defaultMaterial;
         lineRend.SetPosition(0, mousePos);
         lineRend.SetPosition(1, mousePos);
-        
+
         lineRend.useWorldSpace = false;
 
         if (c == false)
@@ -105,9 +109,9 @@ public class LineDraw : MonoBehaviour
 
         curLine = lineRend;
 
-        canvasarea.transform.position = Vector3.MoveTowards(canvasarea.transform.position,destination,1);
-        
-        
+        //     canvasarea.transform.position = Vector3.MoveTowards(canvasarea.transform.position,destination,1);
+
+
     }
 
     void connectLine(Vector3 mousePos)
