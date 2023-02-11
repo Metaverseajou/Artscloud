@@ -1,3 +1,4 @@
+<<<<<<< HEAD:Artscloud_Metaverse/Library/Bee/artifacts/mvdfrm/UnityEngine.TerrainModule.dll_51EDDB4DDEE0E8DA.mvfrm
 TerrainCallbacks
 UnityEngine
 Experimental
@@ -6,3 +7,13 @@ TerrainUtility
 TerrainPaintUtility
 PaintContext
 BrushTransform
+=======
+TerrainCallbacks
+UnityEngine
+Experimental
+TerrainAPI
+TerrainUtility
+BrushTransform
+PaintContext
+TerrainPaintUtility
+>>>>>>> origin/semin:Artscloud_Metaverse/Library/Bee/artifacts/mvdfrm/UnityEngine.TerrainModule.dll_E97078DD34BEB69F.mvfrm

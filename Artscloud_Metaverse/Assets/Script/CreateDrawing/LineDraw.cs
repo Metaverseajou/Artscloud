@@ -9,6 +9,11 @@ public class LineDraw : MonoBehaviour
     public bool c = true;
     public bool d = true;
 
+<<<<<<< HEAD
+=======
+    int count = 0;
+    int childNum = 0;
+>>>>>>> origin/semin
     public float w = 0.01f;
 
     private LineRenderer curLine;  //Line which draws now
@@ -23,15 +28,20 @@ public class LineDraw : MonoBehaviour
 
     void Start()
     {
+<<<<<<< HEAD
         defaultMaterial.color = Color.black;
         //     canvasarea.transform.position = drawing.transform.position;
         canvasarea.transform.position = new Vector3(0, 0, 0);
 
+=======
+        defaultMaterial.color = Color.gray;
+>>>>>>> origin/semin
     }
 
     // Update is called once per frame
     void Update()
     {
+<<<<<<< HEAD
         Debug.Log(cameraposition.transform.position.z);
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
@@ -51,6 +61,10 @@ public class LineDraw : MonoBehaviour
             canvasarea.transform.GetChild(i).localPosition = canvasarea.transform.position;
         }
 
+=======
+        DrawMouse();
+        count++;
+>>>>>>> origin/semin
     }
 
     void DrawMouse()
@@ -78,12 +92,15 @@ public class LineDraw : MonoBehaviour
         // make line in canvasarea ~
         line.transform.parent = canvasarea.transform;
         line.transform.position = mousePos;
-
         lineRend.startWidth = w;
         lineRend.endWidth = w;
         lineRend.numCornerVertices = 5;
         lineRend.numCapVertices = 5;
+  
         lineRend.material = defaultMaterial;
+ 
+       // lineRend.cam.transform.GetChild(count) = defaultMaterial;
+       // lineRend.material = defaultMaterial;
         lineRend.SetPosition(0, mousePos);
         lineRend.SetPosition(1, mousePos);
 
@@ -91,16 +108,21 @@ public class LineDraw : MonoBehaviour
 
         if (c == false)
         {
-            w += 0.002f;
-            w += 0.002f;
+            w += 0.001f;
+            w += 0.001f;
 
             c = true;
         }
 
         if (d == false)
         {
-            w -= 0.002f;
-            w -= 0.002f;
+            w -= 0.001f;
+            w -= 0.001f;
+
+            if (w < 0.002)
+            {
+                w = 0.002f;
+            }
 
             d = true;
         }

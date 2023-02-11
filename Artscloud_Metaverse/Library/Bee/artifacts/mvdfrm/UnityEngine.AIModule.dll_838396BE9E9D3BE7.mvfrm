@@ -1,3 +1,4 @@
+<<<<<<< HEAD:Artscloud_Metaverse/Library/Bee/artifacts/mvdfrm/UnityEngine.AIModule.dll_838396BE9E9D3BE7.mvfrm
 NavMeshPathStatus
 UnityEngine
 NavMeshPath
@@ -11,3 +12,18 @@ OffMeshLinkData
 OffMeshLink
 NavMeshObstacleShape
 NavMeshObstacle
+=======
+NavMeshPathStatus
+UnityEngine
+NavMeshPath
+ObstacleAvoidanceType
+NavMeshAgent
+NavMeshObstacleShape
+NavMeshObstacle
+OffMeshLinkType
+OffMeshLinkData
+OffMeshLink
+NavMeshHit
+NavMeshTriangulation
+NavMesh
+>>>>>>> origin/semin:Artscloud_Metaverse/Library/Bee/artifacts/mvdfrm/UnityEngine.AIModule.dll_5B71D2FEC09C5132.mvfrm
