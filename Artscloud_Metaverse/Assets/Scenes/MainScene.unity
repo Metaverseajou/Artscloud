@@ -61568,8 +61568,8 @@ MonoBehaviour:
   d: 1
   w: 0.01
   canvasarea: {fileID: 862793425}
-  drawing: {fileID: 1843899944}
   cameraposition: {fileID: 2018324821}
+  _Canvas: {fileID: 1843899944}
 --- !u!65 &1843899946
 BoxCollider:
   m_ObjectHideFlags: 0

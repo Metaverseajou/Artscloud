@@ -19,8 +19,9 @@ public class LineDraw : MonoBehaviour
     private Vector3 PrevPos = Vector3.zero; // 0,0,0 position variable
 
     public GameObject canvasarea;
-    public GameObject drawing;
     public GameObject cameraposition;
+    public GameObject _Canvas;
+    private float Dist;
 
     //   Vector3 destination = new Vector3(-1.47f,-5.61f,-10.75f);
 
@@ -37,6 +38,7 @@ public class LineDraw : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+       
 
        // Debug.Log(cameraposition.transform.position.z);
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -46,8 +48,7 @@ public class LineDraw : MonoBehaviour
         
             if (Physics.Raycast(ray, out hit))
             {
-              //  Vector3 mos = Input.MousePosition;
-              //  mos.z = camera.farClipPlane;
+                
                 
                 if (hit.transform.gameObject.tag == "Draw") // Draw 오브젝트에 위치할때만 그리기
                     DrawMouse();
@@ -66,7 +67,10 @@ public class LineDraw : MonoBehaviour
 
     void DrawMouse()
     {
-        Vector3 mousePos = cam.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 1.5f));
+        Dist = Vector3.Distance(cameraposition.transform.position, _Canvas.transform.position);
+        Debug.Log(Dist);
+
+        Vector3 mousePos = cam.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, Dist-0.1f));
 
         if (Input.GetMouseButtonDown(0))
         {
