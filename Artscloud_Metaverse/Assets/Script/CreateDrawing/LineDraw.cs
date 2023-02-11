@@ -105,16 +105,16 @@ public class LineDraw : MonoBehaviour
 
         if (c == false)
         {
-            w += 0.001f;
-            w += 0.001f;
+            w += 0.005f;
+            w += 0.005f;
 
             c = true;
         }
 
         if (d == false)
         {
-            w -= 0.001f;
-            w -= 0.001f;
+            w -= 0.005f;
+            w -= 0.005f;
 
             if (w < 0.002)
             {

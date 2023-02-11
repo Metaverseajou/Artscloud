@@ -32,7 +32,7 @@ public class buttonAction : MonoBehaviour
         a.defaultMaterial = redMat;
 }
 
-     void colorGray()
+    public void colorGray()
     {
         LineDraw a = GameObject.Find("drawing").GetComponent<LineDraw>();
 
@@ -41,7 +41,7 @@ public class buttonAction : MonoBehaviour
         a.defaultMaterial = redMat;
     }
 
-     void colorGreen()
+    public void colorGreen()
     {
         LineDraw a = GameObject.Find("drawing").GetComponent<LineDraw>();
 
@@ -49,16 +49,16 @@ public class buttonAction : MonoBehaviour
         redMat.color = Color.green;
         a.defaultMaterial = redMat;
     }
-     void colorYellow()
+    public void colorYellow()
     {
         LineDraw a = GameObject.Find("drawing").GetComponent<LineDraw>();
-
+        Debug.Log("노란색 눌렀당");
         redMat = new Material(Shader.Find("Unlit/Color"));
         redMat.color = Color.yellow;
         a.defaultMaterial = redMat;
     }
 
-     void colorBlue()
+    public void colorBlue()
     {
         LineDraw a = GameObject.Find("drawing").GetComponent<LineDraw>();
 
@@ -67,7 +67,7 @@ public class buttonAction : MonoBehaviour
         a.defaultMaterial = redMat;
     }
 
-     void colorMagenta()
+    public void colorMagenta()
     {
         LineDraw a = GameObject.Find("drawing").GetComponent<LineDraw>();
 
@@ -76,7 +76,7 @@ public class buttonAction : MonoBehaviour
         a.defaultMaterial = redMat;
     }
 
-     void colorBlack()
+    public void colorBlack()
     {
         LineDraw a = GameObject.Find("drawing").GetComponent<LineDraw>();
 
@@ -85,7 +85,7 @@ public class buttonAction : MonoBehaviour
         a.defaultMaterial = redMat;
     }
 
-     void colorCyan()
+    public void colorCyan()
     {
         LineDraw a = GameObject.Find("drawing").GetComponent<LineDraw>();
 
@@ -95,16 +95,16 @@ public class buttonAction : MonoBehaviour
     }
 
 
-    /* void colorClear()
+    void colorClear()
     {
         LineDraw a = GameObject.Find("drawing").GetComponent<LineDraw>();
 
         redMat = new Material(Shader.Find("Unlit/Color"));
-        redMat.color = Color.clear;
+        redMat.color = new Color(0, 0, 0, 0);
         a.defaultMaterial = redMat;
-    }*/
+    }
 
-    void colorWhite()
+    public void colorWhite()
     {
         LineDraw a = GameObject.Find("drawing").GetComponent<LineDraw>();
 
