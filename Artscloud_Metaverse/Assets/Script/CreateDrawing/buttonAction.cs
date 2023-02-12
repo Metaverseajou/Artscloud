@@ -8,7 +8,8 @@ public class buttonAction : MonoBehaviour
 
     public Material redMat;
 
-    void Start(){
+    void Start()
+    {
         canvasarea = GameObject.Find("CanvasArea");
     }
     public void buttonMethode()
@@ -34,9 +35,9 @@ public class buttonAction : MonoBehaviour
         redMat = new Material(Shader.Find("Unlit/Color"));
         redMat.color = Color.red;
         a.defaultMaterial = redMat;
-}
+    }
 
-     void colorGray()
+    void colorGray()
     {
         LineDraw a = GameObject.Find("drawing").GetComponent<LineDraw>();
 
@@ -45,7 +46,7 @@ public class buttonAction : MonoBehaviour
         a.defaultMaterial = redMat;
     }
 
-     void colorGreen()
+    void colorGreen()
     {
         LineDraw a = GameObject.Find("drawing").GetComponent<LineDraw>();
 
@@ -53,7 +54,7 @@ public class buttonAction : MonoBehaviour
         redMat.color = Color.green;
         a.defaultMaterial = redMat;
     }
-     void colorYellow()
+    void colorYellow()
     {
         LineDraw a = GameObject.Find("drawing").GetComponent<LineDraw>();
 
@@ -62,7 +63,7 @@ public class buttonAction : MonoBehaviour
         a.defaultMaterial = redMat;
     }
 
-     void colorBlue()
+    void colorBlue()
     {
         LineDraw a = GameObject.Find("drawing").GetComponent<LineDraw>();
 
@@ -71,7 +72,7 @@ public class buttonAction : MonoBehaviour
         a.defaultMaterial = redMat;
     }
 
-     void colorMagenta()
+    void colorMagenta()
     {
         LineDraw a = GameObject.Find("drawing").GetComponent<LineDraw>();
 
@@ -80,7 +81,7 @@ public class buttonAction : MonoBehaviour
         a.defaultMaterial = redMat;
     }
 
-     void colorBlack()
+    void colorBlack()
     {
         LineDraw a = GameObject.Find("drawing").GetComponent<LineDraw>();
 
@@ -89,7 +90,7 @@ public class buttonAction : MonoBehaviour
         a.defaultMaterial = redMat;
     }
 
-     void colorCyan()
+    void colorCyan()
     {
         LineDraw a = GameObject.Find("drawing").GetComponent<LineDraw>();
 
@@ -117,10 +118,15 @@ public class buttonAction : MonoBehaviour
         a.defaultMaterial = redMat;
     }
 
-    public void erase(){
-        Debug.Log(canvasarea.transform.childCount);
-        Destroy(canvasarea.transform.GetChild(canvasarea.transform.childCount-1).gameObject);
-     //   canvasarea.transform.GetChild(canvasarea.transform.childCount-1).gameObject.SetActive(false);
+    public void erase()
+    {
+
+        if (canvasarea.transform.childCount >= 1)
+        {
+            Debug.Log(canvasarea.transform.childCount);
+            Destroy(canvasarea.transform.GetChild(canvasarea.transform.childCount - 1).gameObject);
+        }
+
     }
 
 
