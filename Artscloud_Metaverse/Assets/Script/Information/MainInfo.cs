@@ -22,7 +22,7 @@ public class MainInfo : MonoBehaviour
 
     void Info1(){
         Infocanvas.transform.GetChild(0).gameObject.SetActive(true);
-        Invoke("Info2",time);
+        Invoke("Info2",4f);
     }
 
     void Info2(){
@@ -52,7 +52,7 @@ public class MainInfo : MonoBehaviour
     void Info6(){
         Infocanvas.transform.GetChild(4).gameObject.SetActive(false);
         Infocanvas.transform.GetChild(5).gameObject.SetActive(true);
-        Invoke("Info7",time);
+        Invoke("Info7",7f);
     }
 
     void Info7(){
