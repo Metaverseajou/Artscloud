@@ -18579,7 +18579,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: cb5c46b3164504b3f9380d420a2325ff, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -57802,7 +57802,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uAC00\uC7A5 \uB9CE\uC774 \uBF51\uD78C \uACC4\uC808\uC740 \"\uC5EC\" \uC785\uB2C8\uB2E4."
+  m_text: "\uAC00\uC7A5 \uB9CE\uC774 \uBF51\uD78C \uACC4\uC808\uC740 \"\uC5EC\uB984\"
+    \uC785\uB2C8\uB2E4."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ad508916bfaad4a09b8d9dbcc2bb4119, type: 2}
   m_sharedMaterial: {fileID: 6864246398342347760, guid: ad508916bfaad4a09b8d9dbcc2bb4119, type: 2}
@@ -67814,7 +67815,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2025468180}
   m_LocalRotation: {x: -0, y: 0.7283047, z: -0, w: 0.68525356}
-  m_LocalPosition: {x: 0, y: 0, z: 116.11305}
+  m_LocalPosition: {x: 0, y: 0, z: 116.113}
   m_LocalScale: {x: 0.0119866375, y: 0.008520701, z: 0.0119866375}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -67823,7 +67824,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 93.489, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 18.603014, y: -306.837}
+  m_AnchoredPosition: {x: 18.61, y: -306.837}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2025468182
