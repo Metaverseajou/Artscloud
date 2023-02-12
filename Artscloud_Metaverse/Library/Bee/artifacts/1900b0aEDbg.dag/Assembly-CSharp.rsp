@@ -362,6 +362,7 @@
 "Assets/Script/Exhibit/ImageDrag.cs"
 "Assets/Script/Information/Fadein.cs"
 "Assets/Script/Information/MainInfo.cs"
+"Assets/Script/Information/ZoneInfo.cs"
 "Assets/Script/Season/CameraControl.cs"
 "Assets/Script/Season/MouseMove.cs"
 "Assets/Script/Season/PlayerMovement.cs"
