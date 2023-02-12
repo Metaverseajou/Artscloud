@@ -16,6 +16,8 @@ TagManager:
   - MySoundArea
   - Draw
   - DrawArea
+  - SeasonArea
+  - ExhibitArea
   layers:
   - Default
   - TransparentFX
